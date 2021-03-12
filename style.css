@@ -1,0 +1,58 @@
+
+:root {
+  --newsprint: #15232d;
+  --dd-red: #aa3925;
+  --paper: #f4f2ea;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #f4f2ea;
+
+
+  background-image: url("https://raw.githubusercontent.com/lucaskern/devilsdictionary/main/images/noise.png");
+  border: 10px solid var(--newsprint);
+  box-sizing: content-box;
+}
+.paper {
+  color: var(--paper);
+}
+
+.newsprint {
+  color: var(--newsprint);
+}
+
+.red {
+  background-color: var(--dd-red);
+  width:100%;
+  height: 30px;
+}
+
+.bg-newsprint {
+  background-color: var(--newsprint);
+}
+
+img {
+  filter: sepia();
+  width: 600px;
+  height: 400px;
+}
+.main{
+    color:white;
+
+}
+.paragraph{
+    width:70%;
+    font-size: 20px;
+    color: #152d1b;
+}
+
+
+.paragraph1{
+
+    width:70%;
+    font-size: 20px;
+    color: #152d1b;
+
+}
+
