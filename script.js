@@ -1,12 +1,12 @@
 let flyingEnglish = document.querySelector(".English");
-let hoverCorner = document.querySelector(".English");
+let hoverEnglish = document.querySelector(".English");
 
-hoverCorner.addEventListener("mouseover", function(){
+hoverEnglish.addEventListener("mouseover", function(){
     flyingEnglish.classList.add("active");
 
 })
 
-hoverCorner.addEventListener("mouseout", function(){
+hoverEnglish.addEventListener("mouseout", function(){
     flyingEnglish.classList.remove("active");
 
 })

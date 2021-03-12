@@ -56,3 +56,15 @@ img {
 
 }
 
+.English{
+    position: absolute;
+    top:2rem;
+    left:2rem;
+    width:200px;
+    display: none;
+  }
+  
+  .English.active {
+    display:flex;
+  }
+
