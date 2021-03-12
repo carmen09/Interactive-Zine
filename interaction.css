@@ -14,9 +14,14 @@ body {
   border: 10px solid var(--newsprint);
   box-sizing: content-box;
 }
+
+
 .paper {
   color: var(--paper);
 }
+
+
+
 
 .newsprint {
   color: var(--newsprint);
@@ -33,7 +38,7 @@ body {
 }
 
 img {
-  filter: sepia();
+ 
   width: 600px;
   height: 400px;
 }
@@ -47,6 +52,17 @@ img {
     color: #152d1b;
 }
 
+.English{
+  position: absolute;
+  top:60%;
+  left:2rem;
+ display: none;
+}
+
+.English.active {
+  display:flex;
+}
+
 
 .paragraph1{
 
@@ -56,15 +72,121 @@ img {
 
 }
 
-.English{
-    position: absolute;
-    top:2rem;
-    left:2rem;
-    width:200px;
-    display: none;
-  }
-  
-  .English.active {
-    display:flex;
-  }
 
+.show-English:hover{
+  color:red;
+font-size: 30px;
+
+}
+
+.bridge{
+  position: absolute;
+  top:50%;
+ display: none;
+right: 30%;
+
+}
+
+.bridge.active {
+  display:flex;
+}
+
+.show-bridge:hover{
+  color:red;
+font-size: 30px;
+
+}
+
+
+.Emperor{
+  position: absolute;
+  top:50%;
+ display: none;
+right: 30%;
+
+}
+
+.Emperor.active {
+  display:flex;
+}
+
+.show-emperor:hover{
+  color:red;
+font-size: 30px;
+
+}
+
+
+.Record{
+  position: absolute;
+  top:50%;
+ display: none;
+right: 37%;
+
+}
+
+.Record.active{
+  display:flex;
+}
+
+.show-record:hover{
+  color:red;
+font-size: 30px;
+
+}
+
+.Polo{
+  position: absolute;
+  top:50%;
+ display: none;
+right: 45%;
+
+}
+
+.Polo.active{
+  display:flex;
+}
+
+.show-Polo:hover{
+  color:red;
+font-size: 30px;
+
+}
+
+.Last{
+  color:var(--dd-red);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.Last:hover{
+  color:darkblue;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.Main{
+  color:var(--dd-red);
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 32%;
+}
+
+.Main:hover{
+  color:darkblue;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.Next{
+  color:var(--dd-red);
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 32%;
+}
+
+.Next:hover{
+  color:darkblue;
+  text-decoration: none;
+  font-size: 24px;
+}
